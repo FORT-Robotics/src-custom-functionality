@@ -1,29 +1,7 @@
-# README #
+# SRC Custom Functionality
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository contains code for adding custom functionality to our [FORT Robotics Safety Remote Controller](https://www.fortrobotics.com/wireless-industrial-remote-control).
 
-### What is this repository for? ###
+## Contact
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Questions about this repository? Contact Quinn McHugh at [quinn.mchugh@fortrobotics.com](mailto:quinn.mchugh@fortrobotics.com)
