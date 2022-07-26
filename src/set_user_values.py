@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-"""Python 2 module for setting customer values on an FORT Robotics Safety Remote Contorller (SRC)."""
-​
+"""Python 3 module for setting custom user values on an FORT Robotics Safe Remote Controller (SRC)."""
+
 def set_user_value(key, value):
     """Set a specified key to a specified integer value.
     
@@ -17,8 +17,8 @@ def set_user_value(key, value):
             (maskedValue >> 24) & 0xff)
         
         messageString = "{:02x}".format(key) + valueStr + "FFFFFF\r"
-        print "Set key {} to {}".format(key, value) + " :: " + messageString
-​
+        print("Set key {} to {}".format(key, value) + " :: " + messageString)
+
 def set_user_str_value(key, string):
     """Set a specified key to a specified string value.
     
@@ -35,7 +35,7 @@ def set_user_str_value(key, string):
         segment = 0
         for chunk in stringChunks:
             messageString = "{:02x}{:02x}".format(key, segment) + chunk.encode("hex").ljust(12, '0') + "\r"
-            print "Set key {} to '{}', segment {} ('{}') :: {}".format(key, string, segment, chunk, messageString)
+            print("Set key {} to '{}', segment {} ('{}') :: {}".format(key, string, segment, chunk, messageString))
             segment += 1
 ​
 set_user_value(99, 1)
